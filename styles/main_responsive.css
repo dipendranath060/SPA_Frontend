@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	
+	.why_image
+	{
+		position: relative;
+		bottom: auto;
+		right: auto;
+	}
+	.why_content
+	{
+		padding-bottom: 60px;
+	}
+	.why_image img
+	{
+		max-width: 100%;
+	}
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.home_slider_dots
+	{
+		right: 10px;
+	}
+	.intro{
+		background-position: center left;
+	}
+	.intro::before{
+		background: rgba(0, 0, 0, 0.7);
+	}
+	.intro_text p,.milestone_text,.intro_content h2{
+		color: #fff;
+	}
+	.milestone_col:not(:last-child)
+	{
+		margin-bottom: 50px;
+	}
+	.milestones{
+		margin-top: 40px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	.home_main
+	{
+		margin-top: 85px;
+	}
+	.home_slider_dots
+	{
+		display: none !important;
+	}
+	.why_list_content{
+		padding-left: 15px;
+	}
+}
